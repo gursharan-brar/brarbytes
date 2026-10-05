@@ -18,11 +18,11 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
-      <title>2026-10-05: OpenAI's dealing with EU rules about tracking where…</title>
-      <description>Today: Our approach to EU text provenance rules; Building advertising for the way people use AI; Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time; Turn off Apple Intelligence on macOS 27 and get its disk space back.</description>
-      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-05.mp3" length="1997997" type="audio/mpeg" />
+      <title>2026-10-05: OpenAI's putting ads next to your AI-generated images, and…</title>
+      <description>Today: OpenAI launches visual ads that appear alongside image generation results; Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?; Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s; Mold Linker Version 3.0.0 Release – Rewritten in Rust.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-05.mp3" length="5884077" type="audio/mpeg" />
       <guid isPermaLink="false">brarbytes-2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 15:39:03 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2026 16:21:51 +0000</pubDate>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

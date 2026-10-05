@@ -1,3 +1,6 @@
 feedparser
 requests
 anthropic
+kokoro
+soundfile
+pydub

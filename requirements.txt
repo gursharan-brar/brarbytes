@@ -4,3 +4,4 @@ anthropic
 kokoro
 soundfile
 pydub
+numpy

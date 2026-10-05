@@ -1,0 +1,70 @@
+name: Daily episode
+
+on:
+  schedule:
+    # 12:17 UTC = 6:17am MDT (summer) / 5:17am MST (winter). Cron is UTC-only, so this is early morning either way.
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+# Never run two episodes at once; they would race on feed.xml and history.json.
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PAGES_BRANCH: main # the branch GitHub Pages serves from
+
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.PAGES_BRANCH }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11" # Kokoro supports 3.10 to 3.12
+          cache: pip
+
+      - name: System packages (ffmpeg for MP3 export, espeak-ng for Kokoro)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg espeak-ng
+
+      - name: Install dependencies
+        run: |
+          # CPU-only torch first so Kokoro doesn't pull the multi-GB CUDA build
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Cache Kokoro model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-model-v1
+
+      - name: Fetch stories
+        run: python fetch_stories.py
+
+      - name: Write script
+        run: python write_script.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Generate audio
+        run: python generate_audio.py
+
+      - name: Update feed
+        run: python update_feed.py
+
+      - name: Commit and push episode
+        run: |
+          DATE=$(date -u +%F)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodes/ feed.xml history.json
+          git commit -m "Episode for $DATE"
+          git push origin HEAD:${{ env.PAGES_BRANCH }}

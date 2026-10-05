@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Brar Bytes</title>
+    <link>https://gursharan-brar.github.io/brarbytes/</link>
+    <description>Daily AI and tech news, told straight, with an actual take. I go through what actually shipped versus what's just a demo, cut the hype, and tell you why it matters in a few minutes. Not a bot picking headlines, an actual person doing the reading. New briefs regularly, so you can stay caught up without losing an hour to doomscrolling.</description>
+    <language>en-us</language>
+    <atom:link href="https://gursharan-brar.github.io/brarbytes/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://gursharan-brar.github.io/brarbytes/cover.png</url>
+      <title>Brar Bytes</title>
+      <link>https://gursharan-brar.github.io/brarbytes/</link>
+    </image>
+    <itunes:author>Gursharan Brar</itunes:author>
+    <itunes:summary>Daily AI and tech news, told straight, with an actual take. I go through what actually shipped versus what's just a demo, cut the hype, and tell you why it matters in a few minutes. Not a bot picking headlines, an actual person doing the reading. New briefs regularly, so you can stay caught up without losing an hour to doomscrolling.</itunes:summary>
+    <itunes:image href="https://gursharan-brar.github.io/brarbytes/cover.png" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category>News<itunes:category>Tech News</itunes:category>
+    </itunes:category>
+    <item>
+      <title>2026-10-05: OpenAI's dealing with EU rules about tracking where…</title>
+      <description>Today: Our approach to EU text provenance rules; Building advertising for the way people use AI; Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time; Turn off Apple Intelligence on macOS 27 and get its disk space back.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-05.mp3" length="1997997" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 15:39:03 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

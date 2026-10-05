@@ -52,7 +52,13 @@ def generate(client, stories, word_limit):
         system=SYSTEM,
         messages=[{"role": "user", "content": build_prompt(stories, word_limit)}],
     )
-    data = json.loads(msg.content[0].text)
+    text = msg.content[0].text
+    # Models sometimes wrap JSON in code fences or add a lead-in sentence; keep just the object.
+    start, end = text.find("{"), text.rfind("}")
+    try:
+        data = json.loads(text[start : end + 1])
+    except json.JSONDecodeError:
+        raise ValueError(f"reply was not valid JSON (stop_reason={msg.stop_reason}): {text[:300]!r}")
     if len(data["stories"]) != len(stories):
         raise ValueError(f"expected {len(stories)} commentaries, got {len(data['stories'])}")
     return data["stories"], data["outro"].strip()
@@ -71,15 +77,18 @@ def main():
     for attempt in range(MAX_ATTEMPTS):
         try:
             commentary, outro = generate(client, stories, word_limit)
-        except (anthropic.APIError, json.JSONDecodeError, KeyError, ValueError) as e:
+        except anthropic.APIError as e:
             sys.exit(f"Script generation failed: {e}")
+        except (ValueError, KeyError) as e:
+            print(f"[warn] attempt {attempt + 1} gave an unusable reply: {e}")
+            continue
         script = "\n\n".join([INTRO, *[c.strip() for c in commentary], outro])
         if len(script.split()) < MAX_WORDS:
             break
         print(f"[warn] attempt {attempt + 1} ran {len(script.split())} words, retrying shorter")
         word_limit = int(word_limit * 0.75)
     else:
-        sys.exit(f"Script still over {MAX_WORDS} words after {MAX_ATTEMPTS} attempts, not writing script.txt")
+        sys.exit(f"No valid script under {MAX_WORDS} words after {MAX_ATTEMPTS} attempts, not writing script.txt")
 
     SCRIPT_FILE.write_text(script + "\n", encoding="utf-8")
     print(f"Wrote {SCRIPT_FILE.name}: {len(script.split())} words, {len(stories)} stories")

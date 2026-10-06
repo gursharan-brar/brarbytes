@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-06: So there's this new 501-billion parameter open-weight model…</title>
+      <description>Today: Beam: Reflection's 501B open-weight model; Google is about to remove free access to Gemini Flash and Pro; Show HN: Jotbus – a shared encrypted scratchpad for coding agents; Show HN: Parseable, an open observability datalake, handles 100M time-series/min.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-06.mp3" length="6758061" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 14:30:31 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-05: OpenAI's putting ads next to your AI-generated images, and…</title>
       <description>Today: OpenAI launches visual ads that appear alongside image generation results; Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?; Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s; Mold Linker Version 3.0.0 Release – Rewritten in Rust.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-05.mp3" length="5884077" type="audio/mpeg" />

@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-11: So Asana just published results showing they cut their…</title>
+      <description>Today: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol; apsw: Another Python SQLite Wrapper; Show HN: BetterWispr – Free, open-source dictation for Mac; PSPi 6 – Raspberry Pi in a PSP.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-11.mp3" length="6204333" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-11</guid>
+      <pubDate>Sun, 11 Oct 2026 17:47:13 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-10: So a non-text AI model called Jev just hit a…</title>
       <description>Today: The maker of non-text AI model Jev valued at $7.5B just weeks after launch; AI agent makers are promising privacy — will they deliver?; Typesafe AI raises $870M at $7.5B; Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-10.mp3" length="6375597" type="audio/mpeg" />

@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-12: Meta's finally releasing a frontier model and they're…</title>
+      <description>Today: Meta releases its first frontier model, Muse Wonder; Microsoft president says UK is best placed to drive AI regulation; Former Plaud exec raises $26M for AI app that listens to you in the background; Codex CLI installs a persistent, self-updating background daemon by default.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-12.mp3" length="5714349" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 21:23:08 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-11: So Asana just published results showing they cut their…</title>
       <description>Today: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol; apsw: Another Python SQLite Wrapper; Show HN: BetterWispr – Free, open-source dictation for Mac; PSPi 6 – Raspberry Pi in a PSP.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-11.mp3" length="6204333" type="audio/mpeg" />

@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-13: Google's pushing out Gemini 4 Argon, and honestly, the…</title>
+      <description>Today: Gemini 4 Argon; Laplace Intelligence red-teams robots and self-driving cars before they hit the real world; Pluto Security raises $42M as AI gives enterprise security teams a new headache; 11 year old unsoundness bugs found in Rust borrow checker.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-13.mp3" length="6610605" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 19:25:39 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-12: Meta's finally releasing a frontier model and they're…</title>
       <description>Today: Meta releases its first frontier model, Muse Wonder; Microsoft president says UK is best placed to drive AI regulation; Former Plaud exec raises $26M for AI app that listens to you in the background; Codex CLI installs a persistent, self-updating background daemon by default.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-12.mp3" length="5714349" type="audio/mpeg" />

@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-14: So OpenAI's releasing Amp, which is basically their way of…</title>
+      <description>Today: Amp puts AI agents to work beyond code with OpenAI models; Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace; Iosevka is an open-source, sans-serif and slab-serif monospace font; AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-14.mp3" length="6528429" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 17:21:01 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-13: Google's pushing out Gemini 4 Argon, and honestly, the…</title>
       <description>Today: Gemini 4 Argon; Laplace Intelligence red-teams robots and self-driving cars before they hit the real world; Pluto Security raises $42M as AI gives enterprise security teams a new headache; 11 year old unsoundness bugs found in Rust borrow checker.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-13.mp3" length="6610605" type="audio/mpeg" />

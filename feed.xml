@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-15: Google DeepMind just released a model called Antigravity…</title>
+      <description>Today: Accelerating the search for antimicrobial peptides with Google Antigravity; Teaching students to think and learn through questions; Scimplify raises $25M to challenge China’s grip on critical materials with AI; Wayland desktop for Linux with skeuomorphic design.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-15.mp3" length="6224301" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 17:12:25 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-14: So OpenAI's releasing Amp, which is basically their way of…</title>
       <description>Today: Amp puts AI agents to work beyond code with OpenAI models; Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace; Iosevka is an open-source, sans-serif and slab-serif monospace font; AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-14.mp3" length="6528429" type="audio/mpeg" />

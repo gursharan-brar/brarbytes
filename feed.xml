@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-16: OpenAI's releasing a model called GPT-Rosalind specifically…</title>
+      <description>Today: Bringing GPT-Rosalind to academic research labs; Show HN: Gemini 4 Argon plays StarCraft; Any window from your Mac, on your iPhone and iPad; Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-16.mp3" length="6380205" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 16:49:43 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-15: Google DeepMind just released a model called Antigravity…</title>
       <description>Today: Accelerating the search for antimicrobial peptides with Google Antigravity; Teaching students to think and learn through questions; Scimplify raises $25M to challenge China’s grip on critical materials with AI; Wayland desktop for Linux with skeuomorphic design.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-15.mp3" length="6224301" type="audio/mpeg" />

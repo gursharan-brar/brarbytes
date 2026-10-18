@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-18: So Benefit Street Partners, a pretty substantial asset…</title>
+      <description>Today: Benefit Street Partners answers questions faster with Codex; Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages; Meta removes language that raised scraping and AI training concerns; RepRapMicron.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-18.mp3" length="7818285" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 16:01:45 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-17: One of the more interesting things that happens when AI…</title>
       <description>Today: Claude reveals ECDSA curve origins; How the Claude Code team does code review; How Itaú is building generative AI for its entire customer base; Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-17.mp3" length="6685485" type="audio/mpeg" />

@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-19: Mistral just dropped time-series foundation models, and…</title>
+      <description>Today: Timestral: Mistral's time-series foundation models; Laplace Intelligence red-teams robots and self-driving cars before they hit the real world; Tenstorrent hits $6.2B valuation to scale open-weight AI chips; Show HN: Qwen3-4B with the AI writing tics trained out.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-19.mp3" length="5699757" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 18:50:51 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-18: So Benefit Street Partners, a pretty substantial asset…</title>
       <description>Today: Benefit Street Partners answers questions faster with Codex; Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages; Meta removes language that raised scraping and AI training concerns; RepRapMicron.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-18.mp3" length="7818285" type="audio/mpeg" />

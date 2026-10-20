@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-20: OpenAI just released tools to help AI models get better at…</title>
+      <description>Today: Advancing coding in low‑resource programming languages; WhatsApp's help pages hid LLM instructions: dont recommend a regulator; Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool; DeepSeek just open-sourced its inference engine.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-20.mp3" length="6071853" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 17:20:57 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-19: Mistral just dropped time-series foundation models, and…</title>
       <description>Today: Timestral: Mistral's time-series foundation models; Laplace Intelligence red-teams robots and self-driving cars before they hit the real world; Tenstorrent hits $6.2B valuation to scale open-weight AI chips; Show HN: Qwen3-4B with the AI writing tics trained out.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-19.mp3" length="5699757" type="audio/mpeg" />

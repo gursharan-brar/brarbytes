@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-21: ChatGPT's advertising platform is now operating in…</title>
+      <description>Today: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform; OpenAI says an AI agent lied about disabling its safety monitoring system; Terminal X matches senior investor judgment 88.6% with GPT-6.1; PHP 8.2.35.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-21.mp3" length="6192813" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 17:24:38 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-20: OpenAI just released tools to help AI models get better at…</title>
       <description>Today: Advancing coding in low‑resource programming languages; WhatsApp's help pages hid LLM instructions: dont recommend a regulator; Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool; DeepSeek just open-sourced its inference engine.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-20.mp3" length="6071853" type="audio/mpeg" />

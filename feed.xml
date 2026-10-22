@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-22: Google DeepMind just released a new model that can map…</title>
+      <description>Today: Beyond tree cover: mapping the world’s forest types; Democratic governance of frontier AI, part II: Empowering cyber defenders; Nirva raises $33M for a pendant that only listens to you; mitmproxy adds --emudhra option.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-22.mp3" length="7199277" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 17:20:37 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-21: ChatGPT's advertising platform is now operating in…</title>
       <description>Today: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform; OpenAI says an AI agent lied about disabling its safety monitoring system; Terminal X matches senior investor judgment 88.6% with GPT-6.1; PHP 8.2.35.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-21.mp3" length="6192813" type="audio/mpeg" />

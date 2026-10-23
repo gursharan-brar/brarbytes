@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-23: So OpenAI's back with part two of how they're handling…</title>
+      <description>Today: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II); OpenAI and Poland’s NASK partner to advance AI safety and security; OpenAI working on new $30B raise at $1.25T valuation ahead of IPO; OpenShell – A safe, private runtime for fleets of autonomous AI agents.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-23.mp3" length="5629101" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 17:56:12 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-22: Google DeepMind just released a new model that can map…</title>
       <description>Today: Beyond tree cover: mapping the world’s forest types; Democratic governance of frontier AI, part II: Empowering cyber defenders; Nirva raises $33M for a pendant that only listens to you; mitmproxy adds --emudhra option.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-22.mp3" length="7199277" type="audio/mpeg" />

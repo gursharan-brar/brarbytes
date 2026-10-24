@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-24: OpenAI just published a post about securing their frontier…</title>
+      <description>Today: Securing our frontier model training environment; OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”; DeepSeek reportedly raises $15B days after US restrictions; OBS Studio 33.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-24.mp3" length="5452077" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 16:07:12 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-23: So OpenAI's back with part two of how they're handling…</title>
       <description>Today: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II); OpenAI and Poland’s NASK partner to advance AI safety and security; OpenAI working on new $30B raise at $1.25T valuation ahead of IPO; OpenShell – A safe, private runtime for fleets of autonomous AI agents.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-23.mp3" length="5629101" type="audio/mpeg" />

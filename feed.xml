@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-26: OpenAI's been pretty busy positioning ChatGPT as this…</title>
+      <description>Today: ChatGPT’s expanding world of work; How Fanatics and OpenAI streamline the fan experience; Five weird details from Anthropic’s IPO filing; Show HN: TitleArt – Make text like it's 1997.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-26.mp3" length="5622189" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 19:10:43 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-24: OpenAI just published a post about securing their frontier…</title>
       <description>Today: Securing our frontier model training environment; OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”; DeepSeek reportedly raises $15B days after US restrictions; OBS Studio 33.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-24.mp3" length="5452077" type="audio/mpeg" />

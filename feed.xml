@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-29: OpenAI just released an updated Model Spec, and on the…</title>
+      <description>Today: An updated Model Spec for more capable and beneficial AI; How we detect frontier model misalignment; Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure; I'm building LYNX, an open-source DAW inspired by FL Studio, free,cross-platform.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-29.mp3" length="6198189" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 18:35:53 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-28: Google just announced Gemini 4 Carbon, and I want to be…</title>
       <description>Today: Gemini 4 Carbon: Our next frontier model; Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication; VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more; Show HN: SlideBySide – Present slides without sharing your screen.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-28.mp3" length="5547693" type="audio/mpeg" />

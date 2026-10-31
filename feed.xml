@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-10-31: Anthropic just announced that Claude won't help you clone…</title>
+      <description>Today: Anthropic's Claude AI blocks video game cloning and reverse-engineering; Ollie, a privacy-focused AI assistant, is shutting down; OpenAI reportedly lowers funding target for new round; Florilegium: Procedural Flowers in LaTeX.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-31.mp3" length="6400557" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 17:22:53 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-30: There's a backdoor in the Claude Code extension for VS Code…</title>
       <description>Today: Backdoor in Claude Code for VS Code extension on the Cursor Marketplace; Community safety report and new protections for teens; Anthropic may not secure investment-grade rating after IPO, Blackstone says; Herdr has released native app.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-30.mp3" length="5991213" type="audio/mpeg" />

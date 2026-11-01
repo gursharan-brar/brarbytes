@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-11-01: OpenAI just released something called a model release tag…</title>
+      <description>Today: Making it easier for websites to express AI training preferences; Judge allows NAACP lawsuit over xAI data center pollution to move forward; Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says; Show HN: HackerBooks – HackerTube, but for books mentioned on HN.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-11-01.mp3" length="6102573" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 18:03:06 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-10-31: Anthropic just announced that Claude won't help you clone…</title>
       <description>Today: Anthropic's Claude AI blocks video game cloning and reverse-engineering; Ollie, a privacy-focused AI assistant, is shutting down; OpenAI reportedly lowers funding target for new round; Florilegium: Procedural Flowers in LaTeX.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-10-31.mp3" length="6400557" type="audio/mpeg" />

@@ -18,6 +18,14 @@
     <itunes:category>News<itunes:category>Tech News</itunes:category>
     </itunes:category>
     <item>
+      <title>2026-11-03: Google DeepMind just released something called Antigravity…</title>
+      <description>Today: Agentic cheminformatics with Google Antigravity; Accelerating engineering for the physical world; AI inference startup Fal doubles its valuation to $16B as demand surges; Postman silently auto-installs AI plugins and attempts to share all API data.</description>
+      <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-11-03.mp3" length="6679725" type="audio/mpeg" />
+      <guid isPermaLink="false">brarbytes-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 19:47:57 +0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>2026-11-02: OpenAI just announced the Grid Protectors Program, and I…</title>
       <description>Today: Introducing the Grid Protectors Program; New York Times and other outlets sue web browser Brave over alleged content scraping; Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition; Show HN: Subvocal – Talk to your computer without making noise.</description>
       <enclosure url="https://gursharan-brar.github.io/brarbytes/episodes/2026-11-02.mp3" length="5204397" type="audio/mpeg" />

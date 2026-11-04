@@ -1,0 +1,7 @@
+frames/
+stills/
+*.png
+*.wav
+page.html
+!logo.png
+!cover-thumb.png

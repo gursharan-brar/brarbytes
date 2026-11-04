@@ -1,0 +1,159 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+:root{--bg:#070707;--fg:#f4f4ef;--lime:#b5fa3f;--olive:#85ab59;--dim:#2b2f26}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;background:var(--bg);overflow:hidden}
+body{font-family:'Inter',sans-serif;color:var(--fg)}
+.abs{position:absolute}
+.mono{font-family:'JetBrains Mono',monospace}
+.disp{font-family:'Inter';font-weight:900;letter-spacing:-0.035em;line-height:.92}
+#stage{position:absolute;inset:0}
+/* scene 1 */
+#wall{position:absolute;inset:-40px 0 0 0;display:flex;gap:28px;padding:0 28px}
+.col{flex:1;display:flex;flex-direction:column;gap:22px;font-family:'JetBrains Mono';font-size:21px;line-height:1.35;color:#4b5440}
+.col div{border-left:2px solid #1d2119;padding-left:12px}
+#vign{position:absolute;inset:0;background:radial-gradient(ellipse 62% 55% at 50% 52%,rgba(7,7,7,.96) 30%,rgba(7,7,7,.55) 70%,rgba(7,7,7,.2) 100%)}
+#count{left:96px;top:72px;font-size:28px;color:var(--olive);background:#070707;border:1px solid #23281d;border-radius:10px;padding:12px 20px}
+#count b{color:var(--lime);font-weight:700}
+#hook{left:0;right:0;top:300px;text-align:center;font-size:190px}
+#hook span{display:inline-block}
+/* scene 2 */
+#s2head{left:120px;top:96px;font-size:26px;color:var(--olive)}
+#s2title{left:120px;top:330px;font-size:150px;width:760px}
+.card{left:900px;width:900px;height:150px;background:#10120e;border:1px solid #23281d;border-radius:18px;display:flex;align-items:center;gap:34px;padding:0 40px}
+.card .n{font-family:'JetBrains Mono';font-weight:700;color:var(--lime);font-size:30px}
+.card .h{font-weight:600;font-size:34px;line-height:1.22;letter-spacing:-.01em}
+/* scene 3 */
+#s3cap{left:0;right:0;top:220px;text-align:center;font-size:120px}
+#script{left:260px;top:400px;width:1400px;height:330px;background:#0e100c;border:1px solid #23281d;border-radius:22px;overflow:hidden}
+#script .bar{height:64px;border-bottom:1px solid #23281d;display:flex;align-items:center;padding:0 30px;font-size:24px;color:var(--olive);gap:14px}
+#script .tab{color:var(--fg)}
+#typed{padding:44px 56px;font-size:64px;font-weight:600;line-height:1.25;letter-spacing:-.015em}
+#caret{display:inline-block;width:.5em;height:.95em;background:var(--lime);vertical-align:-.12em;margin-left:4px}
+/* scene 4 */
+#s4cap{left:0;right:0;top:110px;text-align:center;font-size:110px}
+#player{left:310px;top:330px;width:1300px;height:460px;background:#0e100c;border:1px solid #23281d;border-radius:28px;display:flex;gap:48px;padding:30px}
+#player img{width:400px;height:400px;border-radius:16px}
+#pr{flex:1;display:flex;flex-direction:column;padding-top:14px}
+#pr .show{font-size:24px;color:var(--olive)}
+#pr .ttl{font-size:50px;font-weight:700;line-height:1.12;letter-spacing:-.02em;margin-top:16px}
+#wave{display:flex;align-items:center;gap:3px;height:110px;margin-top:auto}
+#wave i{flex:1;background:#2d3327;border-radius:2px}
+#ptime{display:flex;justify-content:space-between;font-size:22px;color:var(--olive);margin-top:14px}
+#eps{left:0;right:0;top:850px;text-align:center;font-size:34px;color:var(--olive)}
+#eps b{color:var(--lime);font-weight:800}
+/* scene 5 */
+#logo{left:510px;top:190px;width:900px;height:560px}
+#logo img{width:900px;height:560px}
+#cur{position:absolute;left:776px;top:424px;width:108px;height:40px;background:var(--bg)}
+#url{left:0;right:0;top:800px;text-align:center;font-size:40px;color:var(--fg)}
+#sub{left:0;right:0;top:868px;text-align:center;font-size:28px;color:var(--olive)}
+#fade{position:absolute;inset:0;background:var(--bg);opacity:0;pointer-events:none}
+</style></head>
+<body><div id="stage">
+  <div id="s1">
+    <div id="wall"></div><div id="vign"></div>
+    <div id="count" class="abs mono">fetching <b>OpenAI</b> <span id="ck"></span></div>
+    <div id="hook" class="abs disp"><span>Too</span> <span>much</span><br><span>AI</span> <span style="color:var(--lime)">news.</span></div>
+  </div>
+  <div id="s2">
+    <div id="s2head" class="abs mono">// brar bytes · 2026-11-03 · today's picks</div>
+    <div id="s2title" class="abs disp">Four<br>that<br><span style="color:var(--lime)">matter.</span></div>
+  </div>
+  <div id="s3">
+    <div id="s3cap" class="abs disp">With an <span style="color:var(--lime)">actual take.</span></div>
+    <div id="script" class="abs"><div class="bar mono"><span class="tab">script.txt</span><span>· intro</span></div><div id="typed"><span id="tx"></span><span id="caret"></span></div></div>
+  </div>
+  <div id="s4">
+    <div id="s4cap" class="abs disp">New episode. <span style="color:var(--lime)">Every day.</span></div>
+    <div id="player" class="abs"><img src="cover-thumb.png"><div id="pr">
+      <div class="show mono">BRAR BYTES · 2026-11-03</div>
+      <div class="ttl">Google DeepMind just released something called Antigravity…</div>
+      <div id="wave"></div>
+      <div id="ptime" class="mono"><span id="pt">0:00</span><span>6:57</span></div>
+    </div></div>
+    <div id="eps" class="abs mono"><b id="epn">1</b> <span id="epl">episode</span> in the feed · <span id="epd">2026-10-05</span></div>
+  </div>
+  <div id="s5">
+    <div id="logo" class="abs"><img src="logo.png"><div id="cur"></div></div>
+    <div id="url" class="abs mono">gursharan-brar.github.io/brarbytes/feed.xml</div>
+    <div id="sub" class="abs mono">add it to any podcast app</div>
+  </div>
+  <div id="fade"></div>
+</div>
+<script>
+const HEAD = __HEADLINES__;
+const WAVE = __WAVE__;
+const PICKS = ["Agentic cheminformatics with Google Antigravity","Accelerating engineering for the physical world","AI inference startup Fal doubles its valuation to $16B as demand surges","Postman silently auto-installs AI plugins and attempts to share all API data"];
+const LINE = "Hey, it's Brar Bytes, here's what matters in AI and tech today.";
+const DATES = ["2026-10-05","2026-10-06","2026-10-07","2026-10-08","2026-10-09","2026-10-10","2026-10-11","2026-10-12","2026-10-13","2026-10-14","2026-10-15","2026-10-16","2026-10-17","2026-10-18","2026-10-19","2026-10-20","2026-10-21","2026-10-22","2026-10-23","2026-10-24","2026-10-26","2026-10-27","2026-10-28","2026-10-29","2026-10-30","2026-10-31","2026-11-01","2026-11-02","2026-11-03"];
+const $ = id => document.getElementById(id);
+const cl = (x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p = (t,a,b)=>cl((t-a)/(b-a));
+const eo = x=>1-Math.pow(1-x,3);
+const ei = x=>x*x*x;
+const back = x=>{const c=1.5;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const show=(el,o,tx=0,ty=0,s=1,blur=0)=>{el.style.opacity=o;el.style.transform=`translate(${tx}px,${ty}px) scale(${s})`;el.style.filter=blur?`blur(${blur}px)`:'none';el.style.visibility=o<=0.001?'hidden':'visible'};
+
+// build wall
+const NC=6, cols=[];
+for(let c=0;c<NC;c++){const d=document.createElement('div');d.className='col';
+  for(let k=0;k<40;k++){const h=HEAD[(k*NC+c*7)%HEAD.length];const e=document.createElement('div');e.textContent=h;d.appendChild(e)}
+  $('wall').appendChild(d);cols.push(d)}
+// cards
+const cards=PICKS.map((h,i)=>{const d=document.createElement('div');d.className='card abs';d.style.top=(250+i*172)+'px';
+  d.innerHTML=`<span class="n">0${i+1}</span><span class="h">${h}</span>`;$('s2').appendChild(d);return d});
+// wave
+const bars=WAVE.map(v=>{const i=document.createElement('i');i.style.height=(14+v*96)+'px';$('wave').appendChild(i);return i});
+
+window.render = function(t){
+  // ---- scene 1: 0-3
+  const s1=$('s1'); const o1 = t<3 ? 1 : 1-p(t,3.0,3.3);
+  s1.style.visibility = o1>0?'visible':'hidden';
+  cols.forEach((c,i)=>{const sp=60+((i*37)%5)*22; const dir=i%2?1:-1;
+    c.style.transform=`translateY(${dir>0? -900+t*sp : -t*sp}px)`;
+    c.style.opacity=(0.55+0.45*p(t,0,0.4))*o1});
+  show($('wall'),p(t,0,0.3)*(1-p(t,3.0,3.35)),0,p(t,3.0,3.35)*120,1,p(t,3.0,3.35)*8);
+  $('vign').style.opacity=o1;
+  const SRC=['OpenAI','Anthropic','Google DeepMind','TechCrunch','The Verge','Ars Technica','VentureBeat','Hacker News'];
+  const si=Math.min(7,Math.floor(p(t,0.2,2.6)*8));
+  $('count').querySelector('b').textContent=SRC[si]; $('ck').textContent=(si+1)+'/8';
+  show($('count'),p(t,0.1,0.35)*(1-p(t,2.85,3.05)));
+  const hs=$('hook').querySelectorAll('span');
+  [0.12,0.3,0.5,0.68].forEach((st,i)=>{const q=p(t,st,st+0.3);show(hs[i],eo(q),0,(1-eo(q))*70,1,(1-q)*10)});
+  show($('hook'),1-p(t,2.85,3.05),0,0,1+p(t,2.85,3.05)*0.06);
+
+  // ---- scene 2: 3-7
+  const s2=$('s2'); s2.style.visibility=(t>2.9&&t<7.2)?'visible':'hidden';
+  show($('s2head'),p(t,3.1,3.4)*(1-p(t,6.7,6.9)));
+  {const q=p(t,3.15,3.55);show($('s2title'),eo(q)*(1-p(t,6.75,6.95)),(1-eo(q))*-60 - p(t,6.75,6.95)*60)}
+  cards.forEach((c,i)=>{const st=3.25+i*0.25;const q=p(t,st,st+0.4);const out=p(t,6.55+i*0.06,6.8+i*0.06);
+    show(c,cl(q*2)*(1-out),(1-back(q))*700 + ei(out)*400,0)});
+
+  // ---- scene 3: 7-11
+  const s3=$('s3'); s3.style.visibility=(t>6.9&&t<11.1)?'visible':'hidden';
+  {const q=p(t,7.05,7.4);show($('s3cap'),eo(q)*(1-p(t,10.75,10.95)),0,(1-eo(q))*50)}
+  {const q=p(t,7.0,7.35);show($('script'),eo(q)*(1-p(t,10.8,11.0)),0,(1-eo(q))*80,1)}
+  {const q=p(t,7.29,10.6);const nch=Math.round(LINE.length*q);$('tx').textContent=LINE.slice(0,nch);
+   $('caret').style.opacity=(q>0&&q<1)?1:((Math.floor(t*2)%2)?0.15:1)}
+
+  // ---- scene 4: 11-15
+  const s4=$('s4'); s4.style.visibility=(t>10.9&&t<15.1)?'visible':'hidden';
+  {const q=p(t,11.0,11.4);show($('player'),eo(q)*(1-p(t,14.8,15.0)),0,(1-eo(q))*60,0.94+0.06*eo(q))}
+  {const q=p(t,11.15,11.5);show($('s4cap'),eo(q)*(1-p(t,14.75,14.95)),0,(1-eo(q))*-40)}
+  {const pr=p(t,11.4,14.8)*0.38; const k=Math.floor(pr*bars.length);
+   bars.forEach((b,i)=>{b.style.background=i<k?'var(--lime)':(i==k?'#f4f4ef':'#2d3327')});
+   const secs=Math.floor(pr*417); $('pt').textContent=Math.floor(secs/60)+':'+String(secs%60).padStart(2,'0')}
+  {const q=p(t,11.6,13.0);const idx=Math.round(eo(q)*28);$('epn').textContent=idx+1;$('epl').textContent=idx?'episodes':'episode';$('epd').textContent=DATES[idx];
+   show($('eps'),p(t,11.5,11.8)*(1-p(t,14.75,14.95)))}
+
+  // ---- scene 5: 15-20
+  const s5=$('s5'); s5.style.visibility=t>14.95?'visible':'hidden';
+  {const q=p(t,15.0,15.45);show($('logo'),eo(q),0,0,1.08-0.08*eo(q),(1-q)*14)}
+  $('cur').style.opacity = (t<15.5)?0:((Math.floor((t-15.5)*2)%2)?1:0);
+  {const q=p(t,15.6,15.95);show($('url'),eo(q),0,(1-eo(q))*30)}
+  {const q=p(t,15.85,16.2);show($('sub'),eo(q),0,(1-eo(q))*30)}
+  $('fade').style.opacity=p(t,19.55,20.0);
+};
+</script></body></html>
